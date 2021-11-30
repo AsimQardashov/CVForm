@@ -1,0 +1,159 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.main{
+	width: 100%;
+	padding: 50px 14%;
+	background: rgb(250, 251, 252);
+}
+.title{
+	background: white;
+	padding-top: 30px;
+}
+.title h5{
+	font-size: 36px;
+	color: #ba2571;
+}
+.title span{
+	font-size: 18px;
+	color: rgb(135, 137, 140);
+}
+.section-title{
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: rgb(51, 54, 56);
+}
+.card{
+	width: 50%;
+}
+.com-md-6{
+	padding: 0;
+}
+label{
+	color: #ba2571;
+	font-size: 18px!important;
+	margin-bottom: 6px;
+	line-height: 1;
+	font: inherit;
+}
+input, select{
+	width: 100%;
+	border: 1px solid #dadada;
+	font-size: 18px!important;
+	color: #4a4a4a;
+	border-radius: 8px;
+	height: 50px;
+	padding: 0 6px;
+	outline: none;
+}
+input[type='checkbox']{
+	width: 20px;
+	height: 20px;
+	margin-top: 50px;
+	margin-right: 10px;
+	border: 1px solid #dfe1e5;
+}
+button{
+	font-size: 18px;
+	font-weight: 600;
+	outline: none;
+	cursor: pointer;
+}	
+.modul {
+	background: #EFEFEF;
+	padding: 16px 0;
+	display: none;
+	margin-top: 12px;
+}
+.info{
+	background: #EFEFEF;
+	position: relative;
+	padding: 16px 0;
+	margin-top: 10px;
+}
+.col-md-10>div>span>span{
+    color: #4a4a4a;
+    font-size: 18px;
+}
+.info i:nth-child(1){
+	position: absolute;
+	cursor: pointer;
+	right: -10px;
+	bottom: -10px;
+	color: #4a4a4a;
+	font-size: 24px;
+	padding: 8px;
+	background: whitesmoke;
+	border-radius: 100%;
+}
+.info i:nth-child(2){
+	position: absolute;
+	cursor: pointer;
+	right: -10px;
+	top: -10px;
+	color: grey;
+	font-size: 24px;
+	padding: 8px;
+	background: whitesmoke;
+	border-radius: 100%;
+}
+.modul button:nth-child(1){
+	background: white;
+	padding: 4px 16px;
+	border: 1px solid rgb(15, 186, 129);
+	color: rgb(15, 186, 129);
+	border-radius: 6px;
+}
+.modul button:nth-child(2){
+	background: white;
+	padding: 4px 16px;
+	border: 1px solid rgb(163, 60, 60);
+	color: rgb(186, 18, 15);
+	border-radius: 6px;
+}
+.kariyer-button{
+	padding: 4px 26px;
+	background: white;
+	color: #ba2571;
+	border-radius: 8px;
+	border:1px solid #ba2571;
+}
+.kariyer-button:hover{
+	color: whitesmoke;
+	background: #ba2571;
+}
+.kariyer-baslik{
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(63, 64, 66);
+}
+.finis-button{
+	text-align: center;
+}
+.add{
+	color: whitesmoke;
+	padding: 8px 36px;
+	font-weight: 600;
+	border: 1px solid #ba2571;
+	border-radius: 6px;
+	background: #ba2571;
+}
+.add:hover{
+	color: #ba2571;
+	background: white;
+	border: 1px solid #ba2571;
+}
+.footer{
+	text-align: center;
+	background: black;
+	color: white;
+	font-size: 14px;
+	padding: 16px 0;
+}
+.asim{
+	width: 50%;
+	height: 200px;
+	background-color: red;
+}

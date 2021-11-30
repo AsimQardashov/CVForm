@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CV Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="TaskCv.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script type="text/javascript" src="jquery.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="
+	sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="title container mb-4">
+		<h5 class="mb-4">İş başvuruları için CV anketi</h5>
+		<span>Lütfen anketde sorulan soruları cevaplayın..</span>
+	</div>
+	<div class="main">
+		<div class="pt-4 row">
+			<h5 class="section-title py-2">Kişisel bilgiler</h5>
+			<hr class="mb-4">
+		</div>
+		<div style="background: #EFEFEF; border-radius: 12px;" class="container">
+			<div class="py-4 kisisel">
+				<div class="row">
+					<div class="col-md-6 col-sm-12 mb-4">
+						<div class="row">
+							<label>Adınız*</label>
+						</div>
+						<input type="text" name="name">
+					</div>
+					<div class="col-md-6 col-xs-12 mb-4">
+						<div class="row">
+							<label>Soyadınız*</label>
+						</div>
+						<input type="text" name="surname">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 mb-4">
+						<div class="row">
+							<label>Cins*</label>
+						</div>
+						<select>
+							<option>Seçin..</option>
+							<option>Erkek</option>
+							<option>Kadın</option>
+						</select>
+					</div>
+					<div class="col-md-6 mb-4">
+						<div class="row">
+							<label>Doğum tarihi*</label>
+						</div>
+						<input type="date" value="1999-11-11" name="surname">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 mb-4">
+						<div class="row">
+							<label>Mobil numara*</label>
+						</div>
+						<input type="text" name="name">
+					</div>
+					<div class="col-md-6 mb-4">
+						<div class="row">
+							<label>E-posta adresi*</label>
+						</div>
+						<input type="URL" name="surname">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 mb-4">
+						<div class="row">
+							<label>Linkedin hesabı (URL)*</label>
+						</div>
+						<input type="URL" name="name">
+					</div>
+					<div class="col-md-6 mb-4">
+						<div class="row">
+							<label>Portfoli/Vebsite (URL)*</label>
+						</div>
+						<input type="URL" name="surname">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="row pt-4">
+				<h5 class="section-title py-3">Kariyer bilgileri</h5>
+				<hr>
+			</div>
+			<div class="py-4">
+				<div class="row mb-4">
+					<div class="col-md-12 aa">
+						<div class="d-flex bd-highlight">
+						    <div class="flex-grow-1 bd-highlight">
+						  		<span class="kariyer-baslik">Tahsil</span>
+						    </div>
+						    <div class="bd-highlight">
+						  		<button class="kariyer-button"> + Ekle</button>
+						    </div>
+						</div>
+						<div class="main-info">
+						</div>
+
+						<div class="modul container">
+							<div class="row tahsil">
+								<div class="col-md-12">
+									<label>Universite ismi*</label>
+									<input id="uni-ad" type="text" name="">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<label>Bolum*</label>
+									<input id="uni-bolum" type="text" name="">
+								</div>
+								<div class="col-md-6">
+									<label>Derece*</label>
+									<select id="uni-derece" type="text" name="">
+										<option>Seçin..</option>
+										<option>Lisans</option>
+										<option>Master</option>
+										<option>Doktor</option>
+									</select>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<label>Baslama tarihi*</label>
+									<input id="uni-baslama" type="date" value="2021-11-27" name="">
+								</div>
+								<div class="col-md-4 bitme">
+									<label>Bitirme tarihi*</label>
+									<input id="uni-bitirme" type="date" value="2021-11-27" name="">
+								</div>
+								<div class="col-md-4">
+									<input type="checkbox" name=""><span>Hala devam ediyor</span>
+								</div>
+							</div>
+							<div class="d-flex flex-row-reverse pt-4">
+								<button style="margin-left: 12px;" class="kayd-t">Kayd et</button>
+								<button class="iptal">Iptal et</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-md-12 aa">
+						<div class="d-flex bd-highlight">
+						  <div class="flex-grow-1 bd-highlight">
+						  	<span class="kariyer-baslik">Dil bilgisi</span>
+						  </div>
+						  <div class="bd-highlight">
+						  	<button class="kariyer-button"> + Ekle</button>
+						  </div>
+						</div>
+						<div class="main-info"></div>
+						
+
+						<div class="modul container">
+							<div class="row">
+								<div class="col-md-6">
+									<label>Dilin Adı*</label>
+									<input id="dil-ad" type="text" name="">
+								</div>
+								<div class="col-md-6">
+									<label>Seviye*</label>
+									<select id="dil-seviye">
+										<option>Seçin...</option>
+										<option>Başlanqıç</option>
+										<option>Orta</option>
+										<option>İyi</option>
+										<option>Mükemmel</option>
+									</select>
+								</div>
+							</div>
+							<div class="d-flex flex-row-reverse pt-4">
+								<button style="margin-left: 12px;" class="kayd-d">Kayd et</button>
+								<button class="iptal">Iptal et</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-md-12 aa">
+						<div class="d-flex bd-highlight">
+						  <div class="flex-grow-1 bd-highlight">
+						  	<span class="kariyer-baslik">Iş tecrübesi</span>
+						  </div>
+						  <div class="bd-highlight">
+						  	<button class="kariyer-button"> + Ekle</button>
+						  </div>
+						</div>
+						<div class="main-info">
+							
+						</div>
+
+						<div class="modul container">
+							<div class="row">
+								<div class="col-md-6">
+									<label>İşletmenin ad*</label>
+									<input id="isletme-ad" type="text" name="">
+								</div>
+								<div class="col-md-6">
+									<label>Vazife*</label>
+									<input id="isletme-vazife" type="text" name="">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<label>Baslama tarihi</label>
+									<input id="isletme-baslama" type="date" value="2021-11-27" name="">
+								</div>
+								<div class="col-md-4 bitme">
+									<label>Bitirme tarihi</label>
+									<input id="isletme-bitme" type="date" value="2021-11-27" name="">
+									
+								</div>
+								<div class="col-md-4">
+									<input type="checkbox" name=""><span>Hala devam ediyor</span>
+
+								</div>
+							</div>
+							<div class="d-flex flex-row-reverse pt-4">
+								<button style="margin-left: 12px;" class="kayd-i">Kayd et</button>
+								<button class="iptal">Iptal et</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-md-12 aa">
+						<div class="d-flex bd-highlight">
+						  <div class="flex-grow-1 bd-highlight">
+						  	<span class="kariyer-baslik">Beceriler</span>
+						  </div>
+						  <div class="bd-highlight">
+						  	<button class="kariyer-button"> + Ekle</button>
+						  </div>
+						</div>
+						<div class="main-info">
+							
+						</div>
+						<div class="modul container">
+							<div class="row">
+								<div class="col-md-6">
+									<label>Becerinin Adı*</label>
+									<input id="beceri-ad" type="text" name="">
+								</div>
+								<div class="col-md-6">
+									<label>Seviye*</label>
+									<select id="beceri-seviye">
+										<option>Seçin...</option>
+										<option>Başlanqıç</option>
+										<option>Orta</option>
+										<option>İyi</option>
+										<option>Mükemmel</option>
+									</select>
+								</div>
+							</div>
+							<div class="d-flex flex-row-reverse pt-4">
+								<button style="margin-left: 12px;" class="kayd-b">Kayd et</button>
+								<button class="iptal">Iptal et</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-md-12 aa">
+						<div class="d-flex bd-highlight">
+						  <div class="flex-grow-1 bd-highlight">
+						  	<span class="kariyer-baslik">Sertifikalar</span>
+						  </div>
+						  <div class="bd-highlight">
+						  	<button class="kariyer-button"> + Ekle</button>
+						  </div>
+						</div>
+						<div class="main-info">
+							<!-- <div class="info container mb-4">
+								<div class="row">
+									<div class="col-md-10">
+										<div class="row">
+											<span>Sertifikanın adı: <span>Ingilizce</span></span>
+										</div>
+										<div class="row">
+											<span>Veren işletme: <span>Iyi</span></span>
+										</div>
+										<div class="row">
+											<span>Numarası: <span>Iyi</span></span>
+										</div>
+										<div class="row">
+											<span>Derecesi: <span>Iyi</span></span>
+										</div>
+										<div class="row">
+											<span>Tarih: <span>Iyi</span></span>
+										</div>
+									</div>
+									<div style="text-align: center;" class="col-md-2">
+											<i class="fas fa-edit"></i>
+											<i class="fas fa-trash-alt"></i>							
+									</div>
+								</div>
+							</div> -->
+						</div>
+						<div class="modul container">
+							<div class="row">
+								<div class="col-md-6">
+									<label>Sertifikanın adı*</label>
+									<input id="sertifika-ad" type="text" name="">
+								</div>
+								<div class="col-md-6">
+									<label>Veren işletme*</label>
+									<input id="sertifika-isletme" type="text" name="">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<label>Numarası*</label>
+									<input id="sertifika-no" type="text" name="">
+								</div>
+								<div class="col-md-6">
+									<label>Derecesi*</label>
+									<input id="sertifika-derece" type="text" name="">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<label>Verilme tarihi</label>
+									<input id="sertifika-alma" type="date" value="2021-11-27" name="">
+								</div>
+								<div class="col-md-4 bitme">
+									<label>Bitme tarihi</label>
+									<input id="sertifika-bitme" type="date" value="2021-11-27" name="">
+								</div>
+								<div class="col-md-4">
+									<input type="checkbox" name=""><span>Hala devam ediyor</span>
+								</div>
+							</div>
+							<div class="d-flex flex-row-reverse pt-4">
+								<button style="margin-left: 12px;" class="kayd-s">Kayd et</button>
+								<button class="iptal">Iptal et</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="finis-button">
+			<button class="add">Gönder</button>
+		</div>
+	</div>
+	<div class="footer">
+		<span>created by Asim Gardashov 11.2021</span>
+	</div>
+	<script type="text/javascript" src="TaskCv.js"></script>
+</body>
+</html>
