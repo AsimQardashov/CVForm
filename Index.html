@@ -43,7 +43,7 @@
 							<label>Cins*</label>
 						</div>
 						<select>
-							<option>Seçin..</option>
+							<option selected="true" disabled="disabled" value="">Seçin..</option>
 							<option>Erkek</option>
 							<option>Kadın</option>
 						</select>
@@ -105,11 +105,11 @@
 						<div class="main-info">
 						</div>
 
-						<div class="modul container">
+						<div class="modul uni container">
 							<div class="row tahsil">
 								<div class="col-md-12">
 									<label>Universite ismi*</label>
-									<input id="uni-ad" type="text" name="">
+									<input required="" id="uni-ad" type="text" name="">
 								</div>
 							</div>
 							<div class="row">
@@ -120,7 +120,7 @@
 								<div class="col-md-6">
 									<label>Derece*</label>
 									<select id="uni-derece" type="text" name="">
-										<option>Seçin..</option>
+										<option selected="true" disabled="disabled" value="">Seçin..</option>
 										<option>Lisans</option>
 										<option>Master</option>
 										<option>Doktor</option>
@@ -128,17 +128,15 @@
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-md-4">
+								<div class="col-md-6">
 									<label>Baslama tarihi*</label>
-									<input id="uni-baslama" type="date" value="2021-11-27" name="">
+									<input id="uni-baslama" type="date" name="">
 								</div>
-								<div class="col-md-4 bitme">
+								<div class="col-md-6 bitme">
 									<label>Bitirme tarihi*</label>
-									<input id="uni-bitirme" type="date" value="2021-11-27" name="">
+									<input id="uni-bitirme" type="date" name="">
 								</div>
-								<div class="col-md-4">
-									<input type="checkbox" name=""><span>Hala devam ediyor</span>
-								</div>
+								
 							</div>
 							<div class="d-flex flex-row-reverse pt-4">
 								<button style="margin-left: 12px;" class="kayd-t">Kayd et</button>
@@ -169,8 +167,8 @@
 								<div class="col-md-6">
 									<label>Seviye*</label>
 									<select id="dil-seviye">
-										<option>Seçin...</option>
-										<option>Başlanqıç</option>
+										<option selected="true" disabled="disabled" value="">Seçin...</option>
+										<option>Başlangıç</option>
 										<option>Orta</option>
 										<option>İyi</option>
 										<option>Mükemmel</option>
@@ -210,18 +208,14 @@
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-md-4">
+								<div class="col-md-6">
 									<label>Baslama tarihi</label>
-									<input id="isletme-baslama" type="date" value="2021-11-27" name="">
+									<input id="isletme-baslama" type="date" name="">
 								</div>
-								<div class="col-md-4 bitme">
+								<div class="col-md-6 bitme">
 									<label>Bitirme tarihi</label>
-									<input id="isletme-bitme" type="date" value="2021-11-27" name="">
+									<input id="isletme-bitme" type="date" name="">
 									
-								</div>
-								<div class="col-md-4">
-									<input type="checkbox" name=""><span>Hala devam ediyor</span>
-
 								</div>
 							</div>
 							<div class="d-flex flex-row-reverse pt-4">
@@ -253,8 +247,8 @@
 								<div class="col-md-6">
 									<label>Seviye*</label>
 									<select id="beceri-seviye">
-										<option>Seçin...</option>
-										<option>Başlanqıç</option>
+										<option selected="true" disabled="disabled" value="">Seçin...</option>
+										<option>Başlangıç</option>
 										<option>Orta</option>
 										<option>İyi</option>
 										<option>Mükemmel</option>
@@ -271,12 +265,12 @@
 				<div class="row mb-4">
 					<div class="col-md-12 aa">
 						<div class="d-flex bd-highlight">
-						  <div class="flex-grow-1 bd-highlight">
-						  	<span class="kariyer-baslik">Sertifikalar</span>
-						  </div>
-						  <div class="bd-highlight">
-						  	<button class="kariyer-button"> + Ekle</button>
-						  </div>
+						    <div class="flex-grow-1 bd-highlight">
+						  		<span class="kariyer-baslik">Sertifikalar</span>
+						    </div>
+						    <div class="bd-highlight">
+						  		<button class="kariyer-button"> + Ekle</button>
+						    </div>
 						</div>
 						<div class="main-info">
 							<!-- <div class="info container mb-4">
@@ -327,16 +321,13 @@
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-md-4">
+								<div class="col-md-6">
 									<label>Verilme tarihi</label>
-									<input id="sertifika-alma" type="date" value="2021-11-27" name="">
+									<input id="sertifika-alma" type="date" name="">
 								</div>
-								<div class="col-md-4 bitme">
+								<div class="col-md-6 bitme">
 									<label>Bitme tarihi</label>
-									<input id="sertifika-bitme" type="date" value="2021-11-27" name="">
-								</div>
-								<div class="col-md-4">
-									<input type="checkbox" name=""><span>Hala devam ediyor</span>
+									<input id="sertifika-bitme" type="date" name="">
 								</div>
 							</div>
 							<div class="d-flex flex-row-reverse pt-4">

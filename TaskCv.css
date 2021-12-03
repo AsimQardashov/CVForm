@@ -55,6 +55,9 @@ input[type='checkbox']{
 	margin-right: 10px;
 	border: 1px solid #dfe1e5;
 }
+.error{
+	border: 1px solid red;
+}
 button{
 	font-size: 18px;
 	font-weight: 600;
